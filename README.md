@@ -41,6 +41,11 @@ A responsive website for Praxis Initiative, Arizona's only directly impacted-led
 ├── 2 Issues.html           # Issues page  
 ├── 3 About.html            # About page
 ├── 4 Programs.html         # Programs page
+├── 4A prison_oversight_page.html        # Independent prison oversight page
+├── 4B criminal_legal_reform_page.html   # Criminal legal reform page
+├── 4C drug_policy_page.html             # Drug policy page
+├── 4D civic_engagement_page.html        # Civic engagement page
+├── 4E arts_in_prison_page.html          # Arts in prison page
 ├── 5 Action Center.html    # Action Center
 ├── 6 Partners.html         # Partners page
 ├── 7 News.html            # News page
