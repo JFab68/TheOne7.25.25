@@ -348,7 +348,7 @@ window.PraxisUtils = {
 document.addEventListener('DOMContentLoaded', () => {
     // Handle external links
     document.querySelectorAll('a[href^="http"]').forEach(link => {
-        if (!link.hostname === window.location.hostname) {
+        if (link.hostname !== window.location.hostname) {
             link.setAttribute('target', '_blank');
             link.setAttribute('rel', 'noopener noreferrer');
         }
