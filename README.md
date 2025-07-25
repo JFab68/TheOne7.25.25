@@ -83,6 +83,10 @@ Edit files in the `/includes/` directory:
    ```
 3. Add CSS link and components.js script
 
+### Building the Site
+Run `npm run build` to generate a `dist/` directory with static pages.
+Deploy the contents of `dist/` to your hosting provider.
+
 ### Styling
 Main styles are in `/css/styles.css`. Use CSS variables for consistent colors:
 - `--primary-navy`: #000080
