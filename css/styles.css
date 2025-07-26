@@ -2102,3 +2102,58 @@ a:focus, button:focus, [role="button"]:focus, input:focus, select:focus, textare
     gap: 1.5rem;
   }
 }
+/* ================================
+   Partners Page
+   ================================ */
+.partners-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.partner-card {
+  background: var(--white);
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  padding: 30px 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partner-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.partner-card img {
+  max-width: 160px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.partner-card h2 {
+  font-size: 1.25rem;
+  color: var(--primary-navy);
+  margin-bottom: 10px;
+}
+
+.partner-card p {
+  font-size: 0.95rem;
+  color: var(--medium-gray);
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.partner-card .btn {
+  font-size: 0.9rem;
+  padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+  .partner-card {
+    padding: 20px;
+  }
+}
