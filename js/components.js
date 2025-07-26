@@ -44,7 +44,7 @@ class ComponentLoader {
 
     setActiveNavItem() {
         // Set active navigation item based on current page
-        const navLinks = document.querySelectorAll('.header-nav a, .nav-row-1 a, .nav-row-2 a');
+        const navLinks = document.querySelectorAll('.header-nav a');
         navLinks.forEach(link => {
             const href = link.getAttribute('href');
             if (href && href.includes(this.currentPage)) {
